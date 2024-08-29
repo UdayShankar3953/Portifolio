@@ -528,3 +528,34 @@ img {
     width: 450px;
   }
 }
+
+
+
+
+
+
+
+
+
+.certificate-box, .internship-box {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.certificate-img, .internship-img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.certificate-details, .internship-details {
+  padding: 20px;
+}
+.internship-dates {
+  margin-top: 10px;
+  color: gray;
+}
+.row-cols-2 > .col {
+  margin-bottom: 20px;
+}
