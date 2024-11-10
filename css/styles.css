@@ -555,3 +555,66 @@ img {
 .row-cols-2 > .col {
   margin-bottom: 20px;
 }
+
+
+
+
+
+
+#hackathon-win h2 {
+  margin-bottom: 1.5rem;
+  color: var(--second-color);
+}
+
+/* Main Container Box */
+.hackathon-box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  overflow: hidden;
+}
+
+/* Carousel Image Styling */
+.carousel-image {
+  height: 300px;
+  object-fit: contain;
+  background-color: #ffffff;
+  border: 3px solid #ffffff; /* Adds white border to each image */
+  border-radius: 8px;
+}
+
+/* Remove any unwanted outline or focus style */
+.carousel-item:focus,
+.carousel-item img:focus {
+  outline: none;
+}
+
+/* Experience Box Styling */
+.experience-box {
+  color: var(--second-color);
+  margin-top: 1rem;
+}
+
+.experience-box h3 {
+  color: var(--first-color);
+}
+
+.experience-box ul {
+  padding-left: 1.2rem;
+}
+
+/* Carousel Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+.carousel-item {
+  outline: none;  /* Remove blue outline */
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #000; /* Ensure the controls are visible */
+}
+.carousel-item.active::after {
+  display: none;  /* Remove the blue line for carousel items */
+}
